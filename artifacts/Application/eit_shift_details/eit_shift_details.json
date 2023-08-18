@@ -1,0 +1,828 @@
+{
+	"id": "3ef9eb9c-3b38-ee11-b8f0-002248a2f7be",
+	"createdAt": "2023-08-11T11:40:28.296Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "e7d381be-fed3-4a78-eed3-268ac0d75ffe",
+			"fieldName": "VBoxMainStructure",
+			"fieldParent": 0,
+			"fieldType": "sap.m.VBox",
+			"script": "",
+			"customComponent": false,
+			"bindingValue": "Generic Object",
+			"bindingType": "u",
+			"bindingSource": "P9",
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "height",
+					"grouping": "Properties",
+					"value": "800px",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "a9dde8e4-f455-470f-ca91-2aa589049cd6",
+					"fieldName": "TextID",
+					"fieldParent": "e7d381be-fed3-4a78-eed3-268ac0d75ffe",
+					"fieldType": "sap.m.Text",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "visible",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "e30bccef-f3d6-48ca-8b8b-06be0e441788",
+					"fieldName": "HeaderContainer",
+					"fieldParent": "e7d381be-fed3-4a78-eed3-268ac0d75ffe",
+					"fieldType": "sap.m.HeaderContainer",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "styleClass",
+							"grouping": "Properties",
+							"value": "HeaderContainer",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "d479a8a9-a157-4515-b69e-7477c9e03886",
+							"fieldName": "Avatar",
+							"fieldParent": "e30bccef-f3d6-48ca-8b8b-06be0e441788",
+							"fieldType": "sap.f.Avatar",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "src",
+									"grouping": "Properties",
+									"value": "{/Picture}",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "displaySize",
+									"grouping": "Properties",
+									"value": "XL",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "Avatar",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiSmallMargin",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "e081d2fc-79ba-416b-ff0c-15d32a434106",
+							"fieldName": "VBox",
+							"fieldParent": "e30bccef-f3d6-48ca-8b8b-06be0e441788",
+							"fieldType": "sap.m.VBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "00b3eda7-2cfb-4277-ce52-b53eeff30c5c",
+									"fieldName": "SimpleForm",
+									"fieldParent": "e081d2fc-79ba-416b-ff0c-15d32a434106",
+									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"script": "",
+									"customComponent": false,
+									"bindingValue": "shift_planning_employee>shift_planning_employee_table",
+									"bindingType": "u",
+									"bindingSource": "API",
+									"bindingParentID": "B6F02D2A-DB31-EE11-B8F0-000D3A661446",
+									"bindingPathID": "4684b297-8836-41c5-9c13-4ce3dd8fc217",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "columnsL",
+											"grouping": "Properties",
+											"value": "4",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "df167e3f-0d3c-481c-d934-efd4d091d1f0",
+											"fieldName": "Title1",
+											"fieldParent": "00b3eda7-2cfb-4277-ce52-b53eeff30c5c",
+											"fieldType": "sap.m.Title",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Personal Details",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "6c02c92d-af6c-4580-a904-c5cf1feadcb4",
+											"fieldName": "txtSimpleForm2Name",
+											"fieldParent": "00b3eda7-2cfb-4277-ce52-b53eeff30c5c",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": []
+										},
+										{
+											"fieldNo": "257e9dc0-81fc-475e-cd7a-1a7eaa1fc059",
+											"fieldName": "txtSimpleForm2Phone_Number",
+											"fieldParent": "00b3eda7-2cfb-4277-ce52-b53eeff30c5c",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "dsdds",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "fe137c2e-808d-41b4-bceb-65c8e8cbf74e",
+											"fieldName": "txtSimpleForm2Email",
+											"fieldParent": "00b3eda7-2cfb-4277-ce52-b53eeff30c5c",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "{/Email}",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "6b042291-a4f3-402a-feee-d82bc834850e",
+											"fieldName": "txtSimpleForm2Role",
+											"fieldParent": "00b3eda7-2cfb-4277-ce52-b53eeff30c5c",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "{/Role}",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "82146a14-7433-493d-c7ed-69b8dab3afe1",
+							"fieldName": "VBox1",
+							"fieldParent": "e30bccef-f3d6-48ca-8b8b-06be0e441788",
+							"fieldType": "sap.m.VBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "4b01160a-0b5a-4ef1-8bae-a5f249fd24dd",
+									"fieldName": "SimpleForm1",
+									"fieldParent": "82146a14-7433-493d-c7ed-69b8dab3afe1",
+									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"script": "",
+									"customComponent": false,
+									"bindingValue": "shift_planning_employee>shift_planning_employee_table",
+									"bindingType": "u",
+									"bindingSource": "API",
+									"bindingParentID": "B6F02D2A-DB31-EE11-B8F0-000D3A661446",
+									"bindingPathID": "4684b297-8836-41c5-9c13-4ce3dd8fc217",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "columnsL",
+											"grouping": "Properties",
+											"value": "4",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "2d5a7313-d770-48bf-9fa1-f5300723e13f",
+											"fieldName": "Title",
+											"fieldParent": "4b01160a-0b5a-4ef1-8bae-a5f249fd24dd",
+											"fieldType": "sap.m.Title",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Today's shifts details",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "e2dc30c2-006f-45c2-e90b-30e810c38d46",
+											"fieldName": "txtSimpleFormStoreName",
+											"fieldParent": "4b01160a-0b5a-4ef1-8bae-a5f249fd24dd",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "{/Email}",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "5f31061f-5ce0-4d70-a76f-a9ba11742ef2",
+											"fieldName": "txtSimpleFormStartDate",
+											"fieldParent": "4b01160a-0b5a-4ef1-8bae-a5f249fd24dd",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Formatter",
+													"value": "date:BrowserSetting",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "10df8ae3-9d7b-4a31-b333-4d093610cb4c",
+											"fieldName": "txtSimpleFormendHour",
+											"fieldParent": "4b01160a-0b5a-4ef1-8bae-a5f249fd24dd",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "dsdds",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Formatter",
+													"value": "date:BrowserSetting",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "50f18bff-092a-4234-d0b1-eaf0b7224d1d",
+					"fieldName": "Panel",
+					"fieldParent": "e7d381be-fed3-4a78-eed3-268ac0d75ffe",
+					"fieldType": "sap.m.Panel",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "14ba62e7-0b55-4110-f786-af6d0eca72d3",
+							"fieldName": "oPlanningCalendar",
+							"fieldParent": "50f18bff-092a-4234-d0b1-eaf0b7224d1d",
+							"fieldType": "sap.m.PlanningCalendar",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "Generic Array",
+							"bindingType": "h",
+							"bindingSource": "P9",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "viewKey",
+									"grouping": "Properties",
+									"value": "Hour",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "showRowHeaders",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "showIntervalHeaders",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "noDataText",
+									"grouping": "Properties",
+									"value": "you do not have a work shift today",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "appointmentsVisualization",
+									"grouping": "Properties",
+									"value": "Standard",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "appointmentsReducedHeight",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "appointmentSelect",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.PlanningCalendar/oPlanningCalendar/appointmentSelect.script",
+									"translation": []
+								},
+								{
+									"attribute": "blocked",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "appointmentHeight",
+									"grouping": "Properties",
+									"value": "Large",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "appointmentRoundWidth",
+									"grouping": "Properties",
+									"value": "HalfColumn",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "d7285a18-9b0d-45a8-85a6-38e92535c80a",
+					"fieldName": "Javascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Javascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "1e1dab19-6a47-484b-9494-892af2f0054e",
+					"fieldName": "API",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "77d1e126-22d0-4134-cbb6-9f1734f5f662",
+							"fieldName": "RestAPIEmployeeInfoGet",
+							"fieldParent": "1e1dab19-6a47-484b-9494-892af2f0054e",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "b6f02d2a-db31-ee11-b8f0-000d3a661446",
+							"restOperation": "89711e92-6cc4-44ae-b562-2c8e59225558",
+							"request": [],
+							"response": [
+								{
+									"status": 200,
+									"dataId": "4684b297-8836-41c5-9c13-4ce3dd8fc217",
+									"modelFieldNo": "e7d381be-fed3-4a78-eed3-268ac0d75ffe"
+								}
+							],
+							"attributes": [
+								{
+									"attribute": "ajaxSuccess",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.restapi/RestAPIEmployeeInfoGet/ajaxSuccess.script",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "68c3d795-595b-4ad5-99dd-51ca0407e0e1",
+							"fieldName": "RestAPIShifts",
+							"fieldParent": "1e1dab19-6a47-484b-9494-892af2f0054e",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "40265c4a-bc35-ee11-b8f0-0022489ec6c8",
+							"restOperation": "13f6e168-118b-4283-da5d-4023e1c428bd",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "setInitLoad",
+									"grouping": "Model",
+									"value": "online",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "ajaxSuccess",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.restapi/RestAPIShifts/ajaxSuccess.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "cbd4681c-abfc-4e1d-f239-283f067697a6",
+							"fieldName": "RestAPIEmployeeGet",
+							"fieldParent": "1e1dab19-6a47-484b-9494-892af2f0054e",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "b6f02d2a-db31-ee11-b8f0-000d3a661446",
+							"restOperation": "89711e92-6cc4-44ae-b562-2c8e59225558",
+							"request": [],
+							"response": [
+								{
+									"status": 200,
+									"dataId": "4684b297-8836-41c5-9c13-4ce3dd8fc217",
+									"modelFieldNo": "e617af05-ea85-4319-9dd9-7cabacad65d1"
+								}
+							],
+							"attributes": [
+								{
+									"attribute": "ajaxSuccess",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.restapi/RestAPIEmployeeGet/ajaxSuccess.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "631521a0-e1eb-4c61-fe46-c4cbff583047",
+					"fieldName": "ModelArray1last",
+					"fieldParent": 99999,
+					"fieldType": "neptune.model.array",
+					"script": "",
+					"customComponent": false,
+					"disabled": true,
+					"bindingValue": "Generic Array",
+					"bindingType": "h",
+					"bindingSource": "P9",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "e617af05-ea85-4319-9dd9-7cabacad65d1",
+					"fieldName": "ModelArray",
+					"fieldParent": 99999,
+					"fieldType": "neptune.model.array",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "69a2be53-1d93-4939-ba8e-94d63115d454",
+					"fieldName": "ModelArrayTodaysShift",
+					"fieldParent": 99999,
+					"fieldType": "neptune.model.array",
+					"script": "",
+					"customComponent": false,
+					"bindingValue": "Generic Array",
+					"bindingType": "h",
+					"bindingSource": "P9",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "0b17ed51-c118-4500-bc95-7e76024cfcaf",
+					"fieldName": "RestAPIgetTodayShift",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "40265c4a-bc35-ee11-b8f0-0022489ec6c8",
+					"restOperation": "13f6e168-118b-4283-da5d-4023e1c428bd",
+					"request": [],
+					"response": [
+						{
+							"status": 200,
+							"dataId": "941af4fe-ae06-4151-a49f-420098b0e36f",
+							"modelFieldNo": "69a2be53-1d93-4939-ba8e-94d63115d454"
+						}
+					],
+					"attributes": [
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/RestAPIgetTodayShift/ajaxSuccess.js",
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "8c195802-adb3-473e-e721-7554704da358",
+					"fieldName": "oPlanningCalendarRow",
+					"fieldParent": 99999,
+					"fieldType": "sap.m.PlanningCalendarRow",
+					"script": "",
+					"customComponent": false,
+					"bindingType": "h",
+					"modelPath": "appointments",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "{Name}",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "text",
+							"grouping": "Properties",
+							"value": "{Role}",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "icon",
+							"grouping": "Properties",
+							"value": "{Picture}",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "appointmentCreate",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/sap.m.PlanningCalendarRow/oPlanningCalendarRow/appointmentCreate.script",
+							"translation": []
+						},
+						{
+							"attribute": "appointmentDragEnter",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/sap.m.PlanningCalendarRow/oPlanningCalendarRow/appointmentDragEnter.script",
+							"translation": []
+						},
+						{
+							"attribute": "appointmentDrop",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/sap.m.PlanningCalendarRow/oPlanningCalendarRow/appointmentDrop.script",
+							"translation": []
+						},
+						{
+							"attribute": "appointmentResize",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/sap.m.PlanningCalendarRow/oPlanningCalendarRow/appointmentResize.script",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "0db58991-cffe-4273-a613-b9c64647c177",
+					"fieldName": "oCalendarAppointment",
+					"fieldParent": 99999,
+					"fieldType": "sap.ui.unified.CalendarAppointment",
+					"script": "",
+					"customComponent": false,
+					"bindingType": "h",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "{title}",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "tentative",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "startDate",
+							"grouping": "Properties",
+							"value": "{Time_start}",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "icon",
+							"grouping": "Properties",
+							"value": "{Picture}",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "endDate",
+							"grouping": "Properties",
+							"value": "{Time_end}",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "23.8.15.1258",
+	"application": "eit_shift_details",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": true,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"apis": [
+		{
+			"id": "b6f02d2a-db31-ee11-b8f0-000d3a661446",
+			"name": "shift_planning_employee",
+			"ver": "23.8.3.853"
+		},
+		{
+			"id": "40265c4a-bc35-ee11-b8f0-0022489ec6c8",
+			"name": "shift_planning",
+			"ver": "23.8.8.722"
+		}
+	],
+	"package": "d4eaee62-6530-ee11-907e-000d3a661202"
+}

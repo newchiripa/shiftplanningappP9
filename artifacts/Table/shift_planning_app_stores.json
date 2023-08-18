@@ -1,0 +1,38 @@
+{
+	"id": "097aa9f5-2031-ee11-b8f0-000d3a661446",
+	"createdAt": "2023-08-02T10:40:16.216Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"fields": [
+		{
+			"id": "d27f3692-454c-466a-88ae-06a3cda09ffc",
+			"fieldName": "store_id",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "03c1e264-3497-4eee-9032-3cd00e0a4b22",
+			"fieldName": "Store_name",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "9f4eea6c-9275-442e-df60-c9d1ab49341d",
+			"fieldName": "Location",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "shift_planning_app_stores",
+	"description": null,
+	"ver": "23.8.2.1340",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d4eaee62-6530-ee11-907e-000d3a661202",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,15 @@
+var oStartDate = oEvent.getParameter("startDate"),
+    oEndDate = oEvent.getParameter("endDate"),
+    oPlanningCalendarRow = oEvent.getParameter("calendarRow"),
+    oModel = modeloPlanningCalendar,
+    sPath = oPlanningCalendarRow.getBindingContext().getPath();
+
+oModel.getProperty(sPath).appointments.push({
+    title: "New Appointment",
+    start: oStartDate,
+    end: oEndDate
+});
+
+sap.m.MessageToast.show("New Appointment is created at \n" + oStartDate + "\n and end at \n" + oEndDate + ".");
+
+oModel.refresh(true);

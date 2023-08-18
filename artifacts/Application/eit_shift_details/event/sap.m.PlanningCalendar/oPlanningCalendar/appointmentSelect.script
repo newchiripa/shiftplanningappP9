@@ -1,0 +1,18 @@
+var selectedAppo = oEvent.getParameter("appointment");
+selectedAppo.setSelected(false);
+
+if(oRPAppoDetails.isOpen()){
+    oRPAppoDetails.close();
+    return;
+}
+
+var selectedRole = oSelectRoles.getSelectedKey();
+if ((selectedRole === "Admin") || (selectedRole === "Manager") ||
+    (selectedRole === oEvent.getParameter("appointment").getParent().getTitle())) {
+
+    modeloSimpleFormAppoDetails.setData(selectedAppo.getBindingContext().getObject());
+    oRPAppoDetails.openBy(selectedAppo);
+
+} else {
+    return;
+}

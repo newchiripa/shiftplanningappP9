@@ -1,0 +1,20 @@
+console.log(modelVBoxMainStructure.getData());
+var data = modelVBoxMainStructure.getData();
+TextID.setText(data[0].Uniqe_id);
+txtSimpleForm2Name.setText(data[0].Name);
+txtSimpleForm2Phone_Number.setText(data[0].Phone_Number);
+txtSimpleForm2Email.setText(data[0].Email);
+txtSimpleForm2Role.setText(data[0].Role);
+Avatar.setSrc(data[0].Picture)
+var id = TextID.getText();
+var options = {
+    parameters: {
+      "where": JSON.stringify({"Uniqe_id" : id}), 
+    }
+};
+
+apiRestAPIEmployeeGet(options);
+
+
+
+

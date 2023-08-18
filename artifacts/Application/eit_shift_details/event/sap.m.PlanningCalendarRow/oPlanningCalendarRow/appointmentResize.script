@@ -1,0 +1,13 @@
+var oAppointment = oEvent.getParameter("appointment"),
+    oStartDate = oEvent.getParameter("startDate"),
+    oEndDate = oEvent.getParameter("endDate");
+
+if (!isAppointmentOverlap(oEvent, oAppointment.getParent())) {
+    sap.m.MessageToast.show("Appointment '" + oAppointment.getTitle() + "' now starts at \n" + oStartDate + "\n and end at \n" + oEndDate + ".");
+
+    oAppointment
+        .setStartDate(oStartDate)
+        .setEndDate(oEndDate);
+} else {
+    sap.m.MessageToast.show("As a manager you can not resize events if they overlap with another events");
+}

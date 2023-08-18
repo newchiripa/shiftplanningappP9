@@ -1,0 +1,16 @@
+var number = parseInt(worked_hours_weekly);
+if(number > 0){
+this.setVisible(false);
+}
+if(number == 0){
+this.setVisible(false);
+}
+if(number < 0){
+this.setVisible(true);
+}
+let negativeNumber = number
+let positiveNumber = Math.abs(negativeNumber);
+
+console.log(positiveNumber); // Çıktı: 5
+var formattedText = positiveNumber + " " + "hours overtime for this week"; 
+return formattedText;

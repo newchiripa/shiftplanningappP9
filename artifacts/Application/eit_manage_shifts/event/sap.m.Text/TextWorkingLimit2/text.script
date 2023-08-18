@@ -1,0 +1,3 @@
+if (typeof Max_working_hour === "undefined" || Max_working_hour === null || Max_working_hour === "") { return; }  
+var formattedText = "Maximum working hour weekly"+ " " +Max_working_hour; 
+return formattedText;

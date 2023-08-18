@@ -1,0 +1,109 @@
+{
+	"id": "d4eaee62-6530-ee11-907e-000d3a661202",
+	"createdAt": "2023-08-01T12:17:31.490Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/newchiripa/shiftplanningappP9"
+	},
+	"name": "Shift Planning App",
+	"description": null,
+	"ver": "23.8.18.918",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "cddb1c7d-6530-ee11-907e-000d3a661202",
+			"application": "eit_manage_resource",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "996e655c-f634-ee11-b8f0-000d3a661446",
+			"application": "eit_manage_shifts",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "3ef9eb9c-3b38-ee11-b8f0-002248a2f7be",
+			"application": "eit_shift_details",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "c1eb3d6b-2131-ee11-b8f0-000d3a661446",
+			"name": "shift_planning_app_assigned_shifts",
+			"description": null
+		},
+		{
+			"id": "96193b36-2131-ee11-b8f0-000d3a661446",
+			"name": "shift_plannin_app_shifts",
+			"description": null
+		},
+		{
+			"id": "55fe4c59-2031-ee11-b8f0-000d3a661446",
+			"name": "shift_planning_employee_table",
+			"description": null
+		},
+		{
+			"id": "2d13efc7-2031-ee11-b8f0-000d3a661446",
+			"name": "shift_planning_worked_hours",
+			"description": null
+		},
+		{
+			"id": "097aa9f5-2031-ee11-b8f0-000d3a661446",
+			"name": "shift_planning_app_stores",
+			"description": null
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "f9545232-7c37-ee11-b8f0-002248a2f7be",
+			"description": null,
+			"name": "Shift Planning Manage Shifts"
+		},
+		{
+			"id": "8eda280b-7c37-ee11-b8f0-002248a2f7be",
+			"description": null,
+			"name": "Shift Planning Create_Update Employee"
+		},
+		{
+			"id": "1accc1f1-913a-ee11-b8f0-002248a2f7be",
+			"description": null,
+			"name": "EI_YOUR_SHIFT_DETAILS"
+		}
+	],
+	"category": [
+		{
+			"id": "71d4f48c-7b37-ee11-b8f0-002248a2f7be",
+			"description": null,
+			"name": "Shift Planning"
+		}
+	],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"media_library": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

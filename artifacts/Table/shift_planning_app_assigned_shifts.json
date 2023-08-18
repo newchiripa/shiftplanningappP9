@@ -1,0 +1,52 @@
+{
+	"id": "c1eb3d6b-2131-ee11-b8f0-000d3a661446",
+	"createdAt": "2023-08-02T10:43:34.156Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"fields": [
+		{
+			"id": "96c1d734-7f9c-4acc-c00a-b84537cbd8a1",
+			"fieldName": "Time_start",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ea6d4688-3ccc-4ca2-f287-b81ff20e5158",
+			"fieldName": "Time_end",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a6ec2b9b-6550-4ce4-e86c-e4b470b0168f",
+			"fieldName": "store_id",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "126c36cf-8eb2-4803-e12d-7d0b30a10d2a",
+			"fieldName": "date",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "739b1299-e309-42ad-92d2-87a12c8f71cd",
+			"fieldName": "employee_id",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "shift_planning_app_assigned_shifts",
+	"description": null,
+	"ver": "23.8.2.1343",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d4eaee62-6530-ee11-907e-000d3a661202",
+	"rolesRead": [],
+	"rolesWrite": []
+}

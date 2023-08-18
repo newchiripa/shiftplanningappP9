@@ -1,0 +1,12 @@
+var number = parseInt(worked_hours_weekly);
+if(number < 0){
+this.setVisible(false);
+}
+if(number == 0){
+this.setVisible(true);
+}
+if(number > 0){
+this.setVisible(true);
+}
+var formattedText = worked_hours_weekly + " " + "hours remaining for this week"; 
+return formattedText;

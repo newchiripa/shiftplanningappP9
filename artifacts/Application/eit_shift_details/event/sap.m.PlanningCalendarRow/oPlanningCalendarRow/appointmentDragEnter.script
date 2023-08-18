@@ -1,0 +1,3 @@
+if (isAppointmentOverlap(oEvent, oEvent.getParameter("calendarRow"))) {
+    oEvent.preventDefault();
+}

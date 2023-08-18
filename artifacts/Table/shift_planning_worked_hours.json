@@ -1,0 +1,59 @@
+{
+	"id": "2d13efc7-2031-ee11-b8f0-000d3a661446",
+	"createdAt": "2023-08-02T10:38:59.453Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"fields": [
+		{
+			"id": "22e53b12-29a2-4754-f459-c6055e0800a0",
+			"fieldName": "employee_id",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "dd79fd40-3b35-484a-d5de-5e21bb95607f",
+			"fieldName": "Date",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "267a9459-65b3-4b88-89d6-8c92b45a2e3d",
+			"fieldName": "hour",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "df2e9d14-4f58-4e93-dab2-9376965ef088",
+			"fieldName": "location",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "cfa41088-1c10-4f91-d739-5c2356ca03cd",
+			"fieldName": "start_time",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "086656d6-83f7-4375-bb57-a39516b76cc3",
+			"fieldName": "end_time",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "shift_planning_worked_hours",
+	"description": null,
+	"ver": "23.8.2.1339",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d4eaee62-6530-ee11-907e-000d3a661202",
+	"rolesRead": [],
+	"rolesWrite": []
+}
